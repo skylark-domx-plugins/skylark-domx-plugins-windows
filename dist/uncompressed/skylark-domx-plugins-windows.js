@@ -105,6 +105,7 @@ define('skylark-domx-plugins-windows/window',[
 ], function (noder,eventer,$,plugins,Movable, Resizable,windows) {
     'use strict';
 
+    /*ref: skylark-photoviewer */
     var windows = [];
 
     var Window = plugins.Plugin.inherit({
