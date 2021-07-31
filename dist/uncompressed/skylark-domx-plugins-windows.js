@@ -87,11 +87,11 @@
 })(function(define,require) {
 
 define('skylark-domx-plugins-windows/windows',[
-    "skylark-langx/skylark"
-],function (skylark) {
+    "skylark-domx-plugins-base/plugins"
+],function (plugins) {
     'use strict';
 
-    return skylark.attach("domx.plugins.windows");
+    return plugins.windows = {};
 
 });
 define('skylark-domx-plugins-windows/window',[

@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-domx-plugins/skylark-domx-plugins-windows/
  * @license MIT
  */
-define(["skylark-langx/skylark"],function(n){"use strict";return n.attach("domx.plugins.windows")});
+define(["skylark-domx-plugins-base/plugins"],function(n){"use strict";return n.windows={}});
 //# sourceMappingURL=sourcemaps/windows.js.map
